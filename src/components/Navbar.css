@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.crown{
+    color: gold;
+    height: 15px;
+
+   
+}
+
+.navbar{
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    color: rgba(39, 20, 159, 1);
+;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+
+}
+
+.home,
+.about,
+.dashboard,
+.signup,
+.premium{
+    text-decoration: none;
+    font-style: Jost;
+    color: rgba(39, 20, 159, 1);
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: 650;
+}
+
+.logo{
+    width: 40%;
+    object-fit: contain;
+    margin: 10 30px;
+    margin-top: 18px;
+    
+}
+
+.signup{
+    border: 1px solid;
+    border-radius: 5px;font-weight: 900;
+    background-color: rgb(221, 211, 211);
+       border: 1px solid;
+    border-radius: 18px;
+}
+
+.premium{
+    font-weight: 900;
+    background-color: rgb(221, 211, 211);
+     border: 1px solid;
+    border-radius: 18px;
+}
+
+.mobile-menu-icon{
+    height: 20px;
+    display: none;
+
+}
+
+@media screen and (max-width:780px)
+{
+    .log{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: white;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+
+    .home,
+.about,
+.dashboard,
+.signup,
+.premium{
+    color: rgba(39, 20, 159, 1);
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.signup,.premium{
+    border: none;
+    background-color: white;
+    border-radius: 0%;
+
+}
+.mobile-menu-icon{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: rgba(39, 20, 159, 1);
+    background-color: white;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+
+
+}
+
+.logo-mobile{
+    justify-content: center;
+     width: 30%;
+    object-fit: contain;
+    margin: 10 30px;
+    margin-top: 18px;
+    margin-left: 120px;
+}
+
+
+}
