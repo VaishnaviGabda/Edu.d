@@ -16,7 +16,7 @@ const Navbar = () => {
             <Link to="/home" className='home'><li>Home</li></Link>
              <Link to="/about" className='about'><li>About</li></Link>
               <Link to="/dashboard" className='dashboard'><li>Dashboard</li></Link>
-                <Link to="/signup" className='signup'><li>Sign Up</li></Link>
+                <Link to="/signup" className='signup'><li>Sign Upp</li></Link>
                  <Link to="/premium" className='premium'><li>Upgrade To Premium<FaCrown className='crown'/></li></Link>
            </ul>
 
