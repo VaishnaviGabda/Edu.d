@@ -7,7 +7,7 @@ import "./Navbar.css"
 
 const Navbar = () => {
 
-    const [isMobile , setIsMobile] = useState(true);
+    const [isMobile , setIsMobile] = useState(false);
   return (
    <nav className='navbar'>
        <h3 ><img src={logo} className={isMobile? "logo-mobile" :"logo"}  /></h3>
